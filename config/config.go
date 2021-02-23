@@ -27,7 +27,7 @@ func GetExt(in string) string {
 }
 
 func GetFT(in string, def FT) FT {
-	ext := GetExt(in)	
+	ext := GetExt(in)
 	if len(ext) == 0 {
 		return def
 	}
@@ -126,4 +126,3 @@ var S = Settings{
 		".html":    HTML,
 	},
 }
-
